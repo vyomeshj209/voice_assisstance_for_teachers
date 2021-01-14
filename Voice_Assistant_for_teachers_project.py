@@ -3,8 +3,7 @@
 #Learner/Creater Name: Vyomesh Javle
 
 #Aim
-'''Create voice assistance to aid teachers to incorporate 
-daily lecture record into excel file of type csv format.'''
+'''Create voice assistance to aid teachers to incorporate daily lecture record into excel file of type csv format.'''
 
 #Importing neccessary Packages for Voice Assistant
 import speech_recognition as sr
@@ -89,7 +88,7 @@ def voice_assistant(data):
         #Gets only the value for each key in dicitionary
         a_list=[collect.get('Date'),collect.get('Time'),collect.get('Class'),collect.get('Topic')] 
         #Add and appends the data to csv file
-        add_to_csv(a_list,'M_Sc_Bio.csv')
+        add_to_csv(a_list,'lecture_records.csv')
         
     #When prompted stop Voice assitant will     
     if "stop" in data:
