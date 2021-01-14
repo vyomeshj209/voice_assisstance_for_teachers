@@ -1,4 +1,4 @@
-# voice_assisstance_for_teachers
+# voice_assisstance_for_teachers_lecture_records
 
 This project was submitted in June 2020 as Assignment work for BootCamp organized by CODEGNAN IT Solution OPC PVT LTD
 
